@@ -1,5 +1,4 @@
-# port-scanner-using-socket
-# 🔍 Port Scanner in Python
+# 🔍 Port Scanner Using Socket
 
 This is a simple **port scanner** written in Python using the built-in `socket` module. It allows users to scan a range of ports on a given target IP address to check which ports are open or closed.
 
