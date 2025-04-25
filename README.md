@@ -5,15 +5,6 @@ This is a simple **port scanner** written in Python using the built-in `socket` 
 
 ---
 
-## 📌 Features
-
-- Scan a specific IP address  
-- Define a custom port range  
-- Fast scanning using a short timeout  
-- User-friendly output with open/closed port status  
-
----
-
 ## 🧠 How It Works
 
 1. The script takes an IP address and a range of ports from the user.  
@@ -21,12 +12,3 @@ This is a simple **port scanner** written in Python using the built-in `socket` 
 3. If the connection is successful, the port is considered **open**.  
 4. If the connection fails, the port is **closed**.  
 5. Results are printed to the console.  
-
----
-
-## ▶️ Usage
-
-1. Save the script as `port_scanner.py`.  
-2. Run the script using Python:
-   ```bash
-   python port_scanner.py
